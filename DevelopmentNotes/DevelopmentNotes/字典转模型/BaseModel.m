@@ -20,6 +20,7 @@
      根据数据源进行赋值操作
      
      */
+    
     id obj = [[self alloc] init];
     
     [self ModelAttributeAutomaticAssignment:dict kindOfClass:[self class] ToModel:obj WithNameDictionary:@{@"ids":@"id"} openRecursive:NO];
