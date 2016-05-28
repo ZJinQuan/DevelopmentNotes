@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140F41D61CF9BB3200BA29D5 /* ImageTreated.m in Sources */ = {isa = PBXBuildFile; fileRef = 140F41D51CF9BB3200BA29D5 /* ImageTreated.m */; };
 		149B36471CB9FDF900E68ED0 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B36461CB9FDF900E68ED0 /* BaseModel.m */; };
 		14B47F921CB750FF003C8B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B47F911CB750FF003C8B58 /* main.m */; };
 		14B47F951CB750FF003C8B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B47F941CB750FF003C8B58 /* AppDelegate.m */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140F41D41CF9BB3200BA29D5 /* ImageTreated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTreated.h; sourceTree = "<group>"; };
+		140F41D51CF9BB3200BA29D5 /* ImageTreated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTreated.m; sourceTree = "<group>"; };
 		149B36451CB9FDF900E68ED0 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		149B36461CB9FDF900E68ED0 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		149B36481CBA03D700E68ED0 /* 使用说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "使用说明.h"; sourceTree = "<group>"; };
@@ -36,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140F41D31CF9BAE900BA29D5 /* 图片处理 */ = {
+			isa = PBXGroup;
+			children = (
+				140F41D41CF9BB3200BA29D5 /* ImageTreated.h */,
+				140F41D51CF9BB3200BA29D5 /* ImageTreated.m */,
+			);
+			path = "图片处理";
+			sourceTree = "<group>";
+		};
 		14B47F841CB750FF003C8B58 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 				14B47F931CB750FF003C8B58 /* AppDelegate.h */,
 				14B47F941CB750FF003C8B58 /* AppDelegate.m */,
 				14B47FAC1CB76205003C8B58 /* 字典转模型 */,
+				140F41D31CF9BAE900BA29D5 /* 图片处理 */,
 				14B47F901CB750FF003C8B58 /* Supporting Files */,
 			);
 			path = DevelopmentNotes;
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149B36471CB9FDF900E68ED0 /* BaseModel.m in Sources */,
+				140F41D61CF9BB3200BA29D5 /* ImageTreated.m in Sources */,
 				14B47F951CB750FF003C8B58 /* AppDelegate.m in Sources */,
 				14B47F921CB750FF003C8B58 /* main.m in Sources */,
 			);
