@@ -17,20 +17,15 @@
  
  */
 
--(UIImage *)thumbnailWithImage:(UIImage *)image size:(CGSize)asize
-
-{
+-(UIImage *)thumbnailWithImage:(UIImage *)image size:(CGSize)asize{
     
     UIImage *newimage;
-    
     
     if (nil == image) {
         
         newimage = nil;
         
-    }
-    
-    else{
+    }else{
         
         UIGraphicsBeginImageContext(asize);
         
@@ -48,21 +43,17 @@
 
 
 
--(UIImage *)thumbnailWithImageWithoutScale:(UIImage *)image size:(CGSize)asize
-
-{
+-(UIImage *)thumbnailWithImageWithoutScale:(UIImage *)image size:(CGSize)asize{
     return image;
     
     UIImage *newimage;
     
     
-    if (nil == image) {
+    if (nil == image){
         
         newimage = nil;
         
-    }
-    
-    else{
+    }else{
         
         CGSize oldsize = image.size;
         
@@ -78,9 +69,7 @@
             
             rect.origin.y = 0;
             
-        }
-        
-        else{
+        }else{
             
             rect.size.width = asize.width;
             
@@ -110,7 +99,6 @@
         UIGraphicsEndImageContext();
         
     }
-    
     
     return newimage;
     
